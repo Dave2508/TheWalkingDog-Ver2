@@ -1,7 +1,6 @@
-package com.daveco.thewalkingdog;
+package com.daveco.thewalkingdog.adapters;
 
 import android.app.Activity;
-import android.media.Image;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -9,6 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.daveco.thewalkingdog.R;
+import com.daveco.thewalkingdog.pojo.Mascota;
 
 import java.util.ArrayList;
 

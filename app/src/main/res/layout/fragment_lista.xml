@@ -3,12 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListaFragment">
+    tools:context=".fragments.ListaFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_lista_mascotas"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:paddingLeft="@dimen/RV_padding_left"
+        android:paddingRight="@dimen/RV_padding_right">
+    </android.support.v7.widget.RecyclerView>
 
 </FrameLayout>

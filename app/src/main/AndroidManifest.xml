@@ -28,8 +28,13 @@
             </meta-data>
             -->
         </activity>
-        <activity android:name=".ActivityAbout" />
-        <activity android:name=".ActivityContacto"></activity>
+        <activity
+            android:name=".ActivityAbout"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".ActivityContacto"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

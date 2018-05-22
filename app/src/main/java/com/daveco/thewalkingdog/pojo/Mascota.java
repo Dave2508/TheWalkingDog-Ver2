@@ -1,4 +1,4 @@
-package com.daveco.thewalkingdog;
+package com.daveco.thewalkingdog.pojo;
 
 public class Mascota {
 
